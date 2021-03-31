@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "TTNormsPro";
+  src: url('../fonts/TTNormsPro-Regular.woff2'),
+  local('TTNormsPro'), local('TTNormsPro'),
+  url('../fonts/TTNormsPro-Bold.woff2') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TTNormsPro-Bold";
+  src: url('../fonts/TTNormsPro-Bold.woff2');
+  src: local('TTNormsPro'), local('TTNormsPro'),
+  url('../fonts/TTNormsPro-Bold.woff2') format('truetype');
+  font-weight: bold;
+}

@@ -1,0 +1,56 @@
+body {
+
+  @include media(tablet-up) {
+    margin: 0;
+  }
+
+  @include media(tablet) {
+    margin: 0;
+  }
+
+  @include media(tablet-only) {
+    margin: 0;
+  }
+
+  @include media(desktop) {
+    margin: 0;
+  }
+
+  @include media(desktop-up) {
+    margin: 0;
+  }
+
+  @include media(mobile-up) {
+    margin: 0;
+  }
+
+  @include media(mobile) {
+    margin: 0;
+  }
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: "TTNormsPro", 'sans-serif';
+  font-weight: 400;
+  background: $accent-color;
+}
+
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 35px;
+  box-sizing: border-box;
+  @include media(tablet-up) {
+    padding: 0 68px;
+  }
+  @include media(desktop-up) {
+    padding: 0 20px;
+  }
+}

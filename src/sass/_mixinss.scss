@@ -1,0 +1,31 @@
+@mixin media($media) {
+  @if $media == desktop {
+    @media screen and (max-width: $desktop-breakpoint) {
+      @content;
+    }
+  } @else if $media == desktop-up {
+    @media screen and (min-width: $desktop-breakpoint + 1) {
+      @content;
+    }
+  } @else if $media == tablet {
+    @media screen and (min-width: $tablet-breakpoint + 1) {
+      @content;
+    }
+  } @else if $media == tablet-up {
+    @media screen and (min-width: $tablet-breakpoint + 1) {
+      @content;
+    }
+  } @else if $media == tablet-only {
+    @media screen and (max-width: $tablet-breakpoint) and (min-width: $mobile-breakpoint + 1) {
+      @content;
+    }
+  } @else if $media == mobile {
+    @media screen and (max-width: $mobile-breakpoint) {
+      @content;
+    }
+  } @else if $media == mobile-up {
+    @media screen and (min-width: $mobile-breakpoint + 1) {
+      @content;
+    }
+  }
+}

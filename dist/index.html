@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://twnty.de/wp-content/themes/twnty/frontend/img/favicon.jpg" type="image/gif"
+          sizes="16x16">
+    <title>TWNTY Digital – Ihre Growth Marketing Agentur aus Leipzig</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="header__logo">
+        <img src="images/header-logo.svg" alt="header-logo">
+    </a>
+    <div class="header-menu__hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="header__menu">
+        <li><a href="#agency">Agency</a></li>
+        <li><a href="#clients-section">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="header__lang-switch">
+        <a href="#" class="lang-switch__link underline ">De</a>
+        /
+        <a href="#" class="lang-switch__link underline active-lang">En</a>
+    </div>
+</header>
+<!-- /.header -->
+
+<main>
+    <section class="hero-section" id="agency">
+        <picture>
+            <source media="(min-width: 1100px)" srcset="images/backgrounds/hero-bg-desktop.png">
+            <source media="(min-width: 769px)" srcset="images/backgrounds/hero-bg-tablet.png">
+            <img src="images/backgrounds/hero-bg-mobile.png" alt="office" class="responsive-image">
+        </picture>
+        <div class="bg-opacity"></div>
+        <div class="container">
+            <div class="hero-section__header">
+                <div class="hero-section__wrapper">
+                    <h1>Digitales Corporate <br>
+                        Marketing für ihre Digitalrevolution: Partnerschaft
+                        lich. Agil. Data-Driven.</h1>
+                    <h4>
+                        TWNTY ist Ihre digitale Full-Service-Unit. Wir agieren ausschließlich
+                        mit Datengestützten Maßnahmen für den perfekten Return-Of-Invest.
+                    </h4>
+                </div>
+                <a href="#clients-section" class="scroll-arrow">
+                    <img src="images/icon-arrow.png" alt="anchor">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- /.hero-section -->
+
+    <section class="clients-section" id="clients-section">
+        <div class="container">
+            <h2>
+                Uns vertrauen namhafte Konzerne, zukunftsorientierte Startups, <br> mittelständische Unternehmen und
+                bekannte
+                Marken – gehören sie dazu!
+            </h2>
+            <div class="clients-section__items">
+                <div class="clients-section__item tilray">
+                    <img src="images/clients/tilray-logo.png" alt="tilray">
+                </div>
+                <div class="clients-section__item apple">
+                    <img src="images/clients/apple-logo.png" alt="apple">
+                </div>
+                <div class="clients-section__item bauerfeind">
+                    <img src="images/clients/bauerfeind-logo.png" alt="bauerfeind">
+                </div>
+                <div class="clients-section__item audi">
+                    <img src="images/clients/audi-logo.png" alt="audi">
+                </div>
+                <div class="clients-section__item subaru">
+                    <img src="images/clients/subaru-logo.png" alt="subaru">
+                </div>
+                <div class="clients-section__item bench">
+                    <img src="images/clients/bench-logo.png" alt="bench">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /.clients-section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-header">
+                    <h5>Kontakt <br>
+                        – let‘s talk</h5>
+                    <div class="contact-header__info">
+                        <a href="https://www.google.com/maps/place/TWNTY+Digital+GmbH/@51.3478409,12.3713358,15z/data=!4m5!3m4!1s0x0:0x630fa015a2eb8d12!8m2!3d51.3478409!4d12.3713358"
+                           target="_blank" class="location-info">
+                            TWNTY Digital GmbH <br>
+                            Pfaffendorfer Straße 26 <br>
+                            04105 Leipzig/Germany <br>
+                        </a>
+
+                        <a href="tel: +49 (0)341 221 796 00">
+                            +49 (0)341 221 796 00
+                        </a>
+                        <a href="mailto:info@twnty.de" class="email-link">
+                            info@twnty.de
+                        </a>
+                        <div class="social-networks">
+                            <a href="#">LinkedIn</a>
+                            <a href="#">Xing</a>
+                            <a href="#">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact-form">
+                    <!-- form -->
+                    <form name="contactForm" id="contactForm" method="post"
+                          action="form.php">
+                        <fieldset>
+                            <div class="half">
+                                <label for="contactName">
+                                    <input name="contactName" type="text" id="contactName" size="35" placeholder="Name"
+                                           value=""/>
+                                </label>
+                            </div>
+                            <div class="half pull-right">
+                                <label for="contactEmail">
+                                    <input name="contactEmail" type="text" id="contactEmail" size="35"
+                                           placeholder="E-Mail"
+                                           value=""/>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="contactSubject">
+                                    <input name="contactSubject" type="text" id="contactSubject" size="35"
+                                           placeholder="Betreff" value=""/>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="contactMessage">
+                                <textarea name="contactMessage" id="contactMessage" rows="8" placeholder="Nachricht"
+                                          cols="50"></textarea>
+                                </label>
+                            </div>
+                            <div class="form__wrapper">
+                                <div class="form-checkbox">
+                                    <input type="checkbox" name="form-checkbox" id="form-checkbox">
+                                    <label for="form-checkbox">
+                                        Ich habe die <a href="#">Datenschutzbestimmungen</a><br>
+                                        zur Kenntnis genommen.
+                                    </label>
+                                </div>
+                                <button class="submit">Senden</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <!-- Form End -->
+
+                    <!-- contact-warning -->
+                    <div id="message-warning"></div>
+                    <!-- contact-success -->
+                    <div id="message-success">
+                        <i class="icon-ok"></i>Your message was sent, thank you!<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.contact-section -->
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <a href="#" class="footer__logo">
+                <img src="images/footer-logo.png" alt="footer-logo">
+            </a>
+            <div class="privacy-policies">
+                <a href="#">Impressum</a>
+                <a href="#">Datenschutz</a>
+            </div>
+            <span class="footer__date">© 2020 </span>
+        </div>
+    </div>
+</footer>
+<!-- /.footer -->
+
+<script src="js/main.min.js"></script>
+
+</body>
+</html>
